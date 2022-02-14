@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 html {
 	height: 100%;
 }
@@ -37,6 +38,7 @@ h1 {
 	font-size: 20pt;
 	text-transform: uppercase;
 }
+
 h2 {
 	text-align: center;
 	font-size: 15pt;
