@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+
+header {
+	font-size: 20pt;
+	text-transform: uppercase;
+}
+
+body {
+	min-height: 100%;
+	background: whitesmoke;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	color: #222;
+	font-size: 14px;
+	line-height: 26px;
+	padding-bottom: 50px;
+	margin: 0;
+}
+
+div {
+	max-width: 700px;
+	background: #fff;
+	margin: 0px auto 0px;
+	box-shadow: 1px 1px 2px #dad7d7;
+	border-radius: 3px;
+	padding: 40px;
+	margin-top: 50px;
+}
+
+ul {
+	margin-bottom: 30px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 15pt;
+	text-transform: uppercase;
+}
+
+.profilepic {
+	position: top;
+	width: 100%;
+}
+
+.subaru {
+	margin: 20px 30px;
+	width: 30%;
+	align-self: flex-start;
+	object-fit: contain;
+}
+
+.headername {
+	float: left;
+	width: 60%;
+}
+
+.navbar {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 1em;
+	align-items: center;
+	text-align: center;
+	max-width: 100px;
+	position: static;
+	margin-left: 35%;
+	margin-right: 30%;
+}
+
+.home {
+	grid-column: 1;
+}
+
+.about {
+	grid-column: 2;
+}
+
+.education {
+	grid-column: 3;
+}
+
+.experience {
+	grid-column: 4;
+}
+
+.navLinks {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+}
