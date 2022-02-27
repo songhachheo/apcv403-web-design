@@ -9,11 +9,7 @@ var day = today.getDay();
 var nDay = day + 1;
 var daylist = ["st", "nd", "rd", "th"];
 
-if (nDay == 1) {
-    console.log("Today is: " + nDay + " " + daylist[day] + " Day of the Week");
-} else if (nDay == 2) {
-    console.log("Today is: " + nDay + " " + daylist[day] + " Day of the Week");
-} else if (nDay == 3) {
+if (nDay < 4) {
     console.log("Today is: " + nDay + " " + daylist[day] + " Day of the Week");
 } else if (nDay > 3 && nDay < 8) {
     console.log("Today is: " + nDay + " " + daylist[3] + " Day of the Week");
